@@ -9,6 +9,6 @@ apt update && apt install -y git curl unzip
 # apt install -y nodejs npm docker.io
 
 # Clone your agent project into /opt (example)
-git clone https://github.com/BennCash/signalsnap-dashboard.git /opt/signalsnap-dashboard
+git clone git@github.com:BennCash/signalsnap-dashboard.git /opt/signalsnap-dashboard
 
 echo "✅ Agent environment setup complete."
